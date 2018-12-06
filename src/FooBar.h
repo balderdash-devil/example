@@ -3,6 +3,7 @@
  *
  *  Created on: Dec 4, 2018
  *      Author: Natesh
+ *      Description : An Example of a simple class
  */
 
 #ifndef SRC_FOOBAR_H_

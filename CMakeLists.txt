@@ -24,5 +24,8 @@ if(CMAKE_CXX_COMPILER_ID MATCHES GNU)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage")
 endif()
 
+# find package opencv
+find_package(OpenCV 3.0 REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 # define tests
 add_subdirectory(src)
