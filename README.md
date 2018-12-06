@@ -1,1 +1,1 @@
-# example
+# Example CMake Project for C++
